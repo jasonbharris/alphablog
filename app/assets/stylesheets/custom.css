@@ -1,0 +1,103 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.adversement {
+    margin-top: 40px;
+}
+
+.navbar {
+    background-color: #C9D7F8 !important;
+    opacity: 0.6;
+}
+
+#logo, .nav-link,
+.my-links {
+    color: #2b2d42 !important;
+}
+
+.my-links {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #96939B;
+}
+
+.adversement {
+    width: 100vw;
+    height: 300px;
+    padding: 20px;
+    background-image: linear-gradient(to left, rgba(201, 215, 248, 0.3), rgba(8, 65, 92, 0.5)), url(blog.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.adversement h1 {
+    width: 80vw;
+    margin: 0 40%;
+    font-size: 2.8rem;
+    color: #f8f9fa;
+}
+
+.c-article {
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 
+        'heading heading'
+        'articleOne articleTwo';
+    gap: 10px;
+}
+
+.c-article h3 {
+    margin-bottom: 10px;
+    grid-area: heading;
+}
+
+.article {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.article-one {
+    grid-area: articleOne;
+    margin-top: -60px;
+}
+
+.article-two {
+    grid-area: articleTwo;
+    margin-top: -60px;
+}
+
+.article-two .image_container {
+    background-image: url('article-two.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.image_container {
+    background-image: url('article-one.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.article h2 {
+    font-size: 1.5rem;
+}
+
+.text-container {
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    width: 100vw;
+    height: 50px;
+    padding: 20px;
+}
+
+footer h6 {
+    margin-left: 100px;
+}
