@@ -101,3 +101,18 @@ footer {
 footer h6 {
     margin-left: 100px;
 }
+
+#page-content {
+    background-color: #4D9DE0;
+    opacity: 0.4;
+    padding: 50px;
+}
+
+.top, .bottom {
+    background-color: #E15554;
+}
+
+.card-link {
+    color: #3D3B8E;
+    text-decoration: none;
+}
